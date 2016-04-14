@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gr.academic.city.sdmd.stylesandthemes.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_ok"
+        style="@style/GreenText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/ok"/>
+
+    <TextView
+        style="@style/GreenText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/cancel"/>
+
+    <TextView
+        android:id="@+id/tv_large"
+        style="@style/GreenText.Large"
+        android:layout_below="@id/tv_ok"
+        android:layout_centerHorizontal="true"
+        android:text="@string/this_is_large"/>
+
+    <TextView
+        android:id="@+id/tv_all_caps"
+        style="@style/AllCapsText"
+        android:layout_below="@id/tv_large"
+        android:layout_centerHorizontal="true"
+        android:text="@string/this_is_all_caps"/>
+
+    <TextView
+        android:id="@+id/tv_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_all_caps"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:text="@string/normal_text_view"/>
+
+    <Button
+        android:layout_below="@id/tv_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_am_a_button"/>
+</RelativeLayout>
