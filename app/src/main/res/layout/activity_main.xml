@@ -13,14 +13,12 @@
     <TextView
         android:id="@+id/tv_ok"
         style="@style/GreenText"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:text="@string/ok"/>
 
     <TextView
         style="@style/GreenText"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:text="@string/cancel"/>
 
     <TextView
